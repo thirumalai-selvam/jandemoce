@@ -29,6 +29,20 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+					<clouHubDeployment>
+						<uri>https://anypoint.mulesoft.com/</uri>
+						<muleVersion>4.4.0</muleVersion>
+						<username>ThiruJan2553</username>
+						<password>Th291998@S2553</password>
+						<environment>sandbox</environment>
+						<applicationName>jandemoce2553</applicationName>
+						<businessGroup>Infosys ltd</businessGroup>
+						<workerType>0.1 vCores</workerType>
+						<workers>1</workers>
+						<objectStoreV2>true</objectStoreV2>
+					</clouHubDeployment>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
