@@ -35,10 +35,10 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>ThiruJan2553</username>
 						<password>Th291998@S2553</password>
-						<environment>sandbox</environment>
+						<environment>Sandbox</environment>
 						<applicationName>jandemoce2553</applicationName>
 						<businessGroup>Infosys ltd</businessGroup>
-						<workerType>0.1 vCores</workerType>
+						<workerType>Micro</workerType>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</clouHubDeployment>
