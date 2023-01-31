@@ -32,14 +32,14 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
-						<muleVersion>${a}</muleVersion>
-						<username>${b}</username>
-						<password>${c}</password>
-						<environment>${d}</environment>
-						<applicationName>${e}</applicationName>
+						<muleVersion>${mule.version}</muleVersion>
+						<username>${mule.username}</username>
+						<password>${mule.password}</password>
+						<environment>${mule.envi}</environment>
+						<applicationName>${mule.app}</applicationName>
 						<businessGroup>Infosys ltd</businessGroup>
-						<workerType>${f}</workerType>
-						<workers>${g}</workers>
+						<workerType>${mule.worker}</workerType>
+						<workers>${mule.work}</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
