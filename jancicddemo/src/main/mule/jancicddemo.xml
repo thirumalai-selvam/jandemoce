@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="65e4d841-e0b6-43fa-8fbd-13bfe1c320bb" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="jancicddemoFlow" doc:id="e7dcd456-2b60-4e3b-a1fe-8284fd0e7750" >
+		<http:listener doc:name="Listener" doc:id="ae931594-f705-4d18-8df8-d67c4e29ad89" config-ref="HTTP_Listener_config" path="/demo"/>
+		<set-payload value='#["CICD demo in Mule Advance"]' doc:name="Set Payload" doc:id="df22f607-a056-4d39-af1c-fddb6d116c05" />
+	</flow>
+</mule>
