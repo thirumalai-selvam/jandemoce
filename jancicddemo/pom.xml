@@ -31,17 +31,17 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com/</uri>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${mule.username}</username>
-						<password>${mule.password}</password>
-						<environment>${mule.envi}</environment>
-						<applicationName>${mule.app}</applicationName>
-						<businessGroup>Infosys ltd</businessGroup>
-						<workerType>${mule.worker}</workerType>
-						<workers>${mule.work}</workers>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<username>githubthiru</username>
+						<password>Githubthiru@123</password>
+						<environment>Sandbox</environment>
+						<muleVersion>4.4.0</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>mulebuild</applicationName>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+
 				</configuration>
 			</plugin>
 		</plugins>
